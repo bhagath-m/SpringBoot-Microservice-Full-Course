@@ -134,7 +134,7 @@
     - Location-based inventory
     - Stock transfer between warehouses
    
-15. **Config Service - Centralized Configuration [LIVE]()**
+15. **Config Service - Centralized Configuration $${\color{red}LIVE}$$**
     - Understnading the problem
     - Implementing a centralized configuration server connect all services
 
