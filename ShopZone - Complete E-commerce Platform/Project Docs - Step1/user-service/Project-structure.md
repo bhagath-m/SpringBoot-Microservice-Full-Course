@@ -1,4 +1,4 @@
-## **Step 4: Project Structure**
+## Project Structure
 ```
 user-service/
 └── src/main/java/com/shopzone/userservice/
