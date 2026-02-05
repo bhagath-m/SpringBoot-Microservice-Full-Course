@@ -1,4 +1,4 @@
-🔹 [AUTHENTICATION APIs]():
+## AUTHENTICATION APIs:
 
    POST /api/auth/register           → John creates account (email, password, name, phone).
    
@@ -13,7 +13,7 @@
    POST /api/auth/reset-password     → John resets password using email token.
    
 
-🔹 [USER PROFILE APIs]():
+## USER PROFILE APIs:
 
    GET  /api/users/profile           → Get John's profile details
    
@@ -24,7 +24,7 @@
    DELETE /api/users/account         → John deletes his account
    
 
-🔹 [ADDRESS MANAGEMENT APIs (needed for delivery later)]():
+## ADDRESS MANAGEMENT APIs (needed for delivery later):
 
    GET    /api/users/addresses       → Get all saved addresses of John
    
@@ -37,7 +37,7 @@
    PUT    /api/users/addresses/{id}/default → John sets default delivery address
    
 
-🔹 [INTERNAL APIs (used by other microservices via Feign Client)]():
+## INTERNAL APIs (used by other microservices via Feign Client):
 
    GET  /internal/users/{userId}     → Other services fetch John's details
    
