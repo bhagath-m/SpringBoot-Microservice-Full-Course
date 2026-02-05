@@ -1,10 +1,10 @@
 🔹 AUTHENTICATION APIs:
-   POST /api/auth/register           → John creates account (email, password, name, phone)
-   POST /api/auth/login              → John logs in (returns JWT token)
-   POST /api/auth/refresh-token      → Refresh expired token
-   POST /api/auth/logout             → John logs out
-   POST /api/auth/forgot-password    → John forgot password, send reset email
-   POST /api/auth/reset-password     → John resets password using email token
+   POST /api/auth/register           → John creates account (email, password, name, phone).
+   POST /api/auth/login              → John logs in (returns JWT token).
+   POST /api/auth/refresh-token      → Refresh expired token.
+   POST /api/auth/logout             → John logs out.
+   POST /api/auth/forgot-password    → John forgot password, send reset email.
+   POST /api/auth/reset-password     → John resets password using email token.
 
 🔹 USER PROFILE APIs:
    GET  /api/users/profile           → Get John's profile details
