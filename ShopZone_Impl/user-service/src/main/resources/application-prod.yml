@@ -1,3 +1,0 @@
-jwt:
-  cookie:
-    secure: true  # ✅ Works with HTTP (localhost:8081)
